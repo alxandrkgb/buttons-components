@@ -1,38 +1,429 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins&family=Ubuntu+Mono&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.TopHeader {
+  width: 93px;
+  height: 36px;
+  margin-left: 83px;
+  margin-top: 53px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4F4F4F;
+}
+
+.GroupOne, .GroupTwo, .GroupThree, .GroupFive, .GroupSix, .GroupSeven, .GroupEight, .GroupNine {
+  display: flex;
+  margin-left: 83px;
+}
+
+.GroupOne {
+  margin-top: 28px;
+  gap: 170px;
+}
+
+.GrpOneTitle, .GrpTwoTitle, .GrpThreeTitle, .GrpFiveTitle, .GrpSixTitle, .GrpSevenTitle, .GrpEightTitle, .GrpNineTitle {
+  width: 60px;
+  height: 12px;
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+  white-space: nowrap;
+}
+
+.Got {
+  color: #828282;
+}
+
+.GroupOneButton {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #3F3F3F;
+  margin-top: 12px;
+}
+
+.ButtonOne {
+  background: #E0E0E0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.ButtonTwo {
+  background: #AEAEAE;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.ButtonTwo:hover,
+.ButtonTwo:focus {
+  background-color: #E0E0E0;
+}
+
+.GroupTwo {
+  margin-top: 45px;
+  gap: 80px;
+}
+
+.GrpTwoTitle {
+  width: 168px;
+}
+
+.GroupTwoButton, .GroupThreeButton {
+  width: 88px;
+  height: 36px;
+  border: 1px solid #3D5AFE;
+  border-radius: 6px;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #3D5AFE;
+  margin-top: 12px;
+}
+
+.GrpTwoButtonOne {
+  background: transparent;
+}
+
+.GrpTwoButtonTwo:hover,
+.GrpTwoButtonTwo:focus {
+  background-color: transparent;
+}
+
+.Gtt {
+  width: 96px;
+}
+
+.GroupThree {
+  margin-top: 47px;
+  gap: 100px;
+}
+
+.GrpThreeTitle {
+  width: 150px;
+}
+
+.GrpThreeButtonOne {
+  border: none;
+  background: none;
+}
+
+.FourthGroup {
+  margin-top: 45px;
+  margin-left: 83px;
+}
+
+.FourthTitle {
+  width: 144px;
+  height: 12px;
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+}
+
+.FourthGroupButton {
+  margin-top: 9px;
+  width: 81px;
+  height: 36px;
+  background: #3D5AFE;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.GroupFive {
+  margin-top: 45px;
+  gap: 150px;
+}
+
+.GroupFiveButton {
+  width: 88px;
+  height: 36px;
+  margin-top: 12px;
+  background: #E0E0E0;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #9E9E9E;
+}
+
+.GrpFiveButtonTwo {
+  background: none;
+}
+
+.GroupSix {
+  margin-top: 45px;
+  gap: 250px;
+}
+
+.GroupSixButton {
+  width: 105px;
+  height: 36px;
+  margin-top: 12px;
+  background: #2962FF;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  border-radius: 6px;
+  border: none;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.iconStyle {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+
+}
+
+.GroupSeven {
+  margin-top: 45px;
+  gap: 110px;
+}
+
+.GroupSevenButton {
+  margin-top: 12px;
+}
+
+.GrpSevenButtonOne {
+  width: 73px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+  background-color: #2962FF;
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.GrpSevenButtonTwo {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background-color: #2962FF;
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.GrpSevenButtonThree {
+  width: 93px;
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+  background-color: #2962FF;
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.GroupEight {
+  margin-top: 45px;
+  gap: 130px;
 }
 
-.App-link {
-  color: #61dafb;
+.GroupEightButton {
+  margin-top: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.GrpEightButtonOne {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background-color:#E0E0E0;
+  color: #3F3F3F;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.GrpEightButtonTwo {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background-color:#2962FF;
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.GrpEightButtonThree {
+  width: 104px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background-color:#455A64;
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 3px 0px #455A6433;
+}
+
+.GrpEightButtonFour {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background-color:#D32F2F;
+  color: #FFFFFF;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  box-shadow: 0px 2px 3px 0px #D32F2F33;
+}
+
+.GroupNine {
+  margin-top: 45px;
+  gap: 130px;
+}
+
+.GroupNineButton {
+  margin-top: 12px;
+}
+
+.GroupNineButton {
+  margin-top: 38px;
+}
+
+.GrpNineButtonOne {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background-color:#AEAEAE;
+  color: #3F3F3F;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  box-shadow: 0px 2px 3px 0px rgba(51, 51, 51, 0.20);
+}
+
+.GrpNineButtonOne:hover,
+.GrpNineButtonOne:focus {
+  background-color: #E0E0E0;
+}
+
+.GrpNineButtonTwo {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  background: #0039CB;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  box-shadow: 0px 2px 3px 0px rgba(41, 98, 255, 0.20);
+}
+
+.GrpNineButtonThree {
+  width: 104px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background: #1C313A;
+  box-shadow: 0px 2px 3px 0px rgba(69, 90, 100, 0.20);
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+}
+
+.GrpNineButtonFour {
+  width: 81px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  background: #9A0007;
+  box-shadow: 0px 2px 3px 0px rgba(211, 47, 47, 0.20);
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+}
+
+.IconLink {
+  color: var(--gray-3, #828282);
+  font-size: 12px;
+  font-family: 'Ubuntu Mono';
+  margin-left: 83px;
+  margin-top: 43px;
+}
+
+a {
+  color: var(--gray-3, #828282);
+  text-decoration: none;
+}
+
+.UserName {
+  font-weight: 700;
 }
