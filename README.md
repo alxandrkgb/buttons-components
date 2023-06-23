@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://buttonscomponent.netlify.app">
+    <a href="https://buttons-components.vercel.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://buttonscomponent.netlify.app">
+    <a href="https://buttons-components.vercel.app">
       Solution
     </a>
     <span> | </span>
